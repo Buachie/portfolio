@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 
 export class Hero extends Component {
-  state = {};
   render() {
     return (
       <div className="hero-container">
         <h1 className="name">
           Aaron Buachie<span className="cursor">|</span>
         </h1>
+        <div className="about">
+          <p>
+            I am a web developer based in Brooklyn who enjoys creating
+            interesting and meaningful content
+          </p>
+        </div>
         <div className="header-decoration">
           <div className="button-container">
             <div className="button green"></div>
@@ -41,7 +46,7 @@ export class Hero extends Component {
           <div className="info-section">
             <div className="info-title">Aaron.skills</div>
             <div className="info-data">
-              [HTML, CSS, JavaScript, React, Sass, jQuery, Wordpress, Github]
+              [HTML, CSS, JavaScript, React, Sass, jQuery, Wordpress, Git]
             </div>
           </div>
           <div className="info-title">

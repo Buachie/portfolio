@@ -17,6 +17,9 @@ export default class App extends Component {
             <Projects />
           </div>
         </div>
+        <footer>
+          <p>Aaron Buachie &copy; 2020</p>
+        </footer>
       </div>
     );
   }

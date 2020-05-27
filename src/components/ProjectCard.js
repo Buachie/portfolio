@@ -7,6 +7,7 @@ export class ProjectCard extends Component {
       <div className="card">
         <div className="project-img">
           <img src={this.props.img}></img>
+          <div className="overlay"></div>
         </div>
         <h3 className="project-title">{this.props.title}</h3>
         <p className="project-description">{this.props.description}</p>
@@ -19,8 +20,20 @@ export class ProjectCard extends Component {
           </ul>
         </div>
         <div className="button-container">
-          <a href={this.props.source}>View Source</a>
-          <a href={this.props.demo}>Live Demo</a>
+          {this.props.source ? (
+            <a className="glow-on-hover" href={this.props.source}>
+              View Source
+            </a>
+          ) : (
+            console.log()
+          )}
+          {this.props.demo ? (
+            <a className="glow-on-hover" href={this.props.demo}>
+              View Project
+            </a>
+          ) : (
+            console.log()
+          )}
         </div>
       </div>
     );
