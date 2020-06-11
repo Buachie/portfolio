@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.782ecb79.chunk.css",
+    "main.js": "/portfolio/static/js/main.5facd254.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5facd254.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.1cff170f.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.1cff170f.js.map",
+    "static/js/2.822640ae.chunk.js": "/portfolio/static/js/2.822640ae.chunk.js",
+    "static/js/2.822640ae.chunk.js.map": "/portfolio/static/js/2.822640ae.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.9a31c09b5a9381f99d967e918d7c25e6.js": "/portfolio/precache-manifest.9a31c09b5a9381f99d967e918d7c25e6.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.782ecb79.chunk.css.map": "/portfolio/static/css/main.782ecb79.chunk.css.map",
+    "static/js/2.822640ae.chunk.js.LICENSE.txt": "/portfolio/static/js/2.822640ae.chunk.js.LICENSE.txt",
+    "static/media/entertainment_sim.png": "/portfolio/static/media/entertainment_sim.5211ddaf.png",
+    "static/media/heritage_trail.png": "/portfolio/static/media/heritage_trail.504406c0.png",
+    "static/media/test-img.jpg": "/portfolio/static/media/test-img.1b66774c.jpg",
+    "static/media/weather_app.png": "/portfolio/static/media/weather_app.0d16e291.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cff170f.js",
+    "static/js/2.822640ae.chunk.js",
+    "static/css/main.782ecb79.chunk.css",
+    "static/js/main.5facd254.chunk.js"
+  ]
+}
