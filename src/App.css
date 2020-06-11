@@ -33,17 +33,22 @@ body {
   padding: 1em;
   background-color: rgb(94, 63, 151);
   margin: 0 auto;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-end;
 }
 
-.nav-bar nav a {
+nav a {
   text-decoration: none;
   color: #fff;
   padding: 1em;
 }
 nav a:hover {
-  color: #ff7300;
+  animation: hover 0.3s linear 1 forwards;
 }
 
 /*Hero Styling*/
@@ -177,8 +182,8 @@ nav a:hover {
 .glow-on-hover {
   margin: 1em;
   padding: 1em;
-  width: 210px;
-  height: 50px;
+  width: auto; /*210px;*/
+  height: auto; /*50px;*/
   border: none;
   outline: none;
   color: #fff;
@@ -247,6 +252,16 @@ nav a:hover {
   border-bottom: 1px solid #fff;
 }
 
+/*Contact Info*/
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact a:hover > svg {
+  animation: hover 0.3s linear 1 forwards;
+}
+
 /*Footer*/
 footer {
   width: 100%;
@@ -268,6 +283,12 @@ footer {
 @keyframes cursor-blink {
   50% {
     color: transparent;
+  }
+}
+@keyframes hover {
+  100% {
+    color: #ff7300;
+    fill: #ff7300;
   }
 }
 @keyframes glowing {

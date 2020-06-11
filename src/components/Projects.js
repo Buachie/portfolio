@@ -44,7 +44,7 @@ export class Projects extends Component {
               description={
                 "A site for the Upper Housatonic Valley African American Heritage Trail made using a modified version of the Wordpress 'Twenty Twenty' theme."
               }
-              demo={"#"}
+              demo={"https://www.africanamericantrail.org/"}
               skill1={"HTML5"}
               skill2={"CSS3"}
               skill3={"Wordpress"}

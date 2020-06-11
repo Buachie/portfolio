@@ -4,11 +4,13 @@ export class Navigation extends Component {
   render() {
     return (
       <div className="nav-bar">
-        <nav>
-          <a href="#">Portfolio</a>
-          <a href="#">Resume</a>
-          <a href="#">Contact</a>
-        </nav>
+        <div className="nav-container">
+          <nav>
+            <a href="#">Portfolio</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
       </div>
     );
   }

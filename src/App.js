@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import "./App.css";
 
 export default class App extends Component {
@@ -16,6 +17,7 @@ export default class App extends Component {
             <br></br>
             <Projects />
           </div>
+          <Contact />
         </div>
         <footer>
           <p>Aaron Buachie &copy; 2020</p>
