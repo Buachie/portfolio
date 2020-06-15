@@ -17,7 +17,6 @@ export default class App extends Component {
             <br></br>
             <Projects />
           </div>
-          <Contact />
         </div>
         <footer>
           <p>Aaron Buachie &copy; 2020</p>

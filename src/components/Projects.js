@@ -19,10 +19,7 @@ export class Projects extends Component {
         <div className="card-container">
           <div className="title-container">
             <h2>Portfolio</h2>
-            <p>
-              Check out some of the stuff I've worked on.{" "}
-              <span className="cursor">|</span>
-            </p>
+            <p>Check out some of the stuff I've worked on. </p>
           </div>
 
           <div className="project-info">
