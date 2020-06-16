@@ -8,7 +8,7 @@ export class Projects extends Component {
     return (
       <div className="projects-container">
         <div className="header-decoration">
-          <div className="button-container">
+          <div className="decoration-flex">
             <div className="button green"></div>
             <div className="button yellow"></div>
             <div className="button red"></div>
@@ -39,7 +39,7 @@ export class Projects extends Component {
               img={Heritage}
               title={"African American Heritage Trail"}
               description={
-                "A site for the Upper Housatonic Valley African American Heritage Trail made using a modified version of the Wordpress 'Twenty Twenty' theme."
+                "A site for the Upper Housatonic Valley African American Heritage Trail made alongside a designer by modifying the Wordpress 'Twenty Twenty' theme."
               }
               demo={"https://www.africanamericantrail.org/"}
               skill1={"HTML5"}

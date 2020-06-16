@@ -14,7 +14,7 @@ export class Hero extends Component {
           </p>
         </div>
         <div className="header-decoration">
-          <div className="button-container">
+          <div className="decoration-flex">
             <div className="button green"></div>
             <div className="button yellow"></div>
             <div className="button red"></div>
@@ -46,7 +46,7 @@ export class Hero extends Component {
           <div className="info-section">
             <div className="info-title">Aaron.skills</div>
             <div className="info-data">
-              [HTML, CSS, JavaScript, React, Sass, jQuery, Wordpress, Git]
+              [HTML, CSS, Sass, JavaScript, ReactJS, jQuery, Wordpress, Git]
             </div>
           </div>
           <div className="info-title">

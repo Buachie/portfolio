@@ -42,7 +42,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   flex-basis: 500px;
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 nav a {
@@ -76,6 +76,7 @@ nav a:hover {
   align-items: center;
 }
 
+.decoration-flex,
 .button-container {
   display: flex;
   align-items: flex-start;
@@ -144,7 +145,7 @@ nav a:hover {
 }
 .card {
   max-width: 400px;
-  min-height: 600px;
+  height: 625px;
   max-height: 700px;
   overflow: hidden;
   margin: 3em 1em 3em 1em;
@@ -183,9 +184,15 @@ nav a:hover {
   margin: 0;
   padding: 1em;
 }
+.button-container {
+  position: relative;
+}
+.button-margin {
+  top: 3.5em;
+}
 .button-container a {
-  margin: 1em;
-  padding: 1em;
+  margin: 0.5em;
+  padding: 0.7em;
 }
 /*Button Glow Effect*/
 .glow-on-hover {
@@ -226,6 +233,7 @@ nav a:hover {
   filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
+  -webkit-animation: glowing 20s linear infinite;
   animation: glowing 20s linear infinite;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
@@ -289,7 +297,11 @@ footer {
     display: none !important;
   }
   .card {
-    min-height: 400px;
+    height: auto;
+    margin: 3em 0 3em 0;
+  }
+  .button-margin {
+    top: 0;
   }
 }
 
@@ -301,8 +313,8 @@ footer {
 }
 @keyframes hover {
   100% {
-    color: #ff7300;
-    fill: #ff7300;
+    color: #96923f;
+    fill: #96923f;
   }
 }
 @keyframes glowing {

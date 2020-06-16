@@ -3,6 +3,10 @@ import image from "../img/test-img.jpg";
 
 export class ProjectCard extends Component {
   render() {
+    let className = "button-container";
+    if (!this.props.skill4) {
+      className += " button-margin";
+    }
     return (
       <div className="card">
         <div className="project-img">
@@ -19,7 +23,7 @@ export class ProjectCard extends Component {
             {this.props.skill4 ? <li>{this.props.skill4}</li> : console.log()}
           </ul>
         </div>
-        <div className="button-container">
+        <div className={className}>
           {this.props.source ? (
             <a className="glow-on-hover" href={this.props.source}>
               View Source
