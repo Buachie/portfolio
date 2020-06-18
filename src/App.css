@@ -138,18 +138,15 @@ nav a:hover {
 }
 .project-info {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: auto;
   grid-gap: 6rem;
   margin: 2rem;
 }
 .card {
-  /*max-width: 450px;*/
-  /*height: max-content;*/
-  /*max-height: 700px;*/
+  position: relative;
   overflow: hidden;
   font-size: medium !important;
-  /*margin: 3rem 1rem 3rem 1rem;*/
   border-radius: 10px;
   background-color: rgb(94, 63, 151);
   box-shadow: 0 50px 100px rgba(138, 138, 218, 0.15),
@@ -196,9 +193,10 @@ nav a:hover {
 }
 .button-container {
   position: relative;
+  bottom: 0;
 }
 .button-margin {
-  /*top: 3.5rem;*/
+  bottom: 0;
 }
 .button-container a {
   margin: 0.5rem;
@@ -208,8 +206,8 @@ nav a:hover {
 .glow-on-hover {
   margin: 1rem;
   padding: 1rem;
-  width: auto; /*210px;*/
-  height: auto; /*50px;*/
+  width: auto;
+  height: auto;
   border: none;
   outline: none;
   color: #fff;
@@ -302,7 +300,12 @@ footer {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
-
+@media screen and (min-width: 675px) and (max-width: 823px) {
+  .card {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 460px) {
   html,
   body {
@@ -316,6 +319,10 @@ footer {
   }
 }
 @media screen and (max-width: 450px) {
+  .project-info {
+    grid-gap: 0;
+    margin: 0;
+  }
   .project-img {
     display: none !important;
   }
@@ -327,7 +334,7 @@ footer {
     top: 0;
   }
 }
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 425px) {
   .project-info {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
