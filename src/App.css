@@ -137,19 +137,19 @@ nav a:hover {
   margin: 0;
 }
 .project-info {
-  display: flex;
-  flex-flow: row wrap;
-  flex-grow: 1;
-  flex-basis: 40%;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 6rem;
+  margin: 2rem;
 }
 .card {
-  max-width: 400px;
-  height: 625px;
-  max-height: 700px;
+  /*max-width: 450px;*/
+  /*height: max-content;*/
+  /*max-height: 700px;*/
   overflow: hidden;
-  margin: 3rem 1rem 3rem 1rem;
+  font-size: medium !important;
+  /*margin: 3rem 1rem 3rem 1rem;*/
   border-radius: 10px;
   background-color: rgb(94, 63, 151);
   box-shadow: 0 50px 100px rgba(138, 138, 218, 0.15),
@@ -159,9 +159,8 @@ nav a:hover {
   height: 250px;
   min-height: 250px;
   max-height: 250px;
-  width: 400px;
-  min-width: 350px;
-  max-width: 400px;
+  min-width: 300px;
+  max-width: 550px;
   position: relative;
 }
 .overlay {
@@ -185,11 +184,21 @@ nav a:hover {
   margin: 0;
   padding: 1rem;
 }
+.skills-container ul {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills-container li {
+  height: 33.3%;
+}
 .button-container {
   position: relative;
 }
 .button-margin {
-  top: 3.5rem;
+  /*top: 3.5rem;*/
 }
 .button-container a {
   margin: 0.5rem;
@@ -288,7 +297,20 @@ footer {
   padding: 0.5rem;
 }
 /*Media Queries*/
+@media screen and (max-width: 967px) {
+  .project-info {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
 @media screen and (max-width: 460px) {
+  html,
+  body {
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+  }
   .nav-container {
     justify-content: center;
   }
@@ -303,6 +325,11 @@ footer {
   }
   .button-margin {
     top: 0;
+  }
+}
+@media screen and (max-width: 365px) {
+  .project-info {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
 
