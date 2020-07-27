@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class Hero extends Component {
   render() {
     return (
-      <div className="hero-container">
+      <div className="hero-container conso-txt">
         <h1 className="name">
           Aaron Buachie<span className="cursor">|</span>
         </h1>
@@ -22,7 +22,7 @@ export class Hero extends Component {
 
           <p className="section-title">About Me</p>
         </div>
-        <div className="my-info">
+        <div className="my-info txt-wht">
           <div className="info-section">
             <div className="info-title">Aaron.currentLocation</div>
             <div className="info-data">"Brooklyn, New York"</div>
@@ -46,7 +46,7 @@ export class Hero extends Component {
           <div className="info-section">
             <div className="info-title">Aaron.skills</div>
             <div className="info-data">
-              [HTML, CSS, Sass, JavaScript, ReactJS, jQuery, Wordpress, Git]
+              [HTML5, CSS3, Sass, JavaScript, ReactJS, jQuery, Wordpress, Git]
             </div>
           </div>
           <div className="info-title">

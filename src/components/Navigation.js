@@ -11,14 +11,14 @@ export class Navigation extends Component {
           <div className="contact-container">
             <div className="contact">
               <a href="mailto:buachiea@gmail.com">
-                <FaEnvelope size={30} color={"#551a8b"} />
+                <FaEnvelope size={30} color={"#705DD8"} />
               </a>
               <a href="https://github.com/Buachie">
-                <FaGithubSquare size={30} color={"#551a8b"} />
+                <FaGithubSquare size={30} color={"#705DD8"} />
               </a>
 
               <a href="https://www.linkedin.com/in/aaron-buachie-5b678775/">
-                <FaLinkedin size={30} color={"#551a8b"} />
+                <FaLinkedin size={30} color={"#705DD8"} />
               </a>
             </div>
           </div>

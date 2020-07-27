@@ -3,19 +3,13 @@ import ProjectCard from "./ProjectCard";
 import Weather from "../img/weather_app.png";
 import Heritage from "../img/heritage_trail.png";
 import Entertainment from "../img/entertainment_sim.png";
+import Handbook from "../img/handbook.png"
+import ImageSearch from "../img/image_search.png"
 export class Projects extends Component {
   render() {
     return (
       <div className="projects-container">
-        <div className="header-decoration">
-          <div className="decoration-flex">
-            <div className="button green"></div>
-            <div className="button yellow"></div>
-            <div className="button red"></div>
-          </div>
-
-          <p className="section-title">My Portfolio</p>
-        </div>
+        
         <div className="card-container">
           <div className="title-container">
             <h2>Portfolio</h2>
@@ -59,6 +53,27 @@ export class Projects extends Component {
               skill3={"HTML5"}
               skill4={"JavaScript"}
             />
+
+            <ProjectCard
+              img={Handbook}
+              title= {"Hunter College Film Production Handbook"}
+              description={"An online handbook for the Hunter College Department of Film and Media allowing easy access to important forms and documents for students"}
+              demo={"https://fm.hunter.cuny.edu/productionhandbook_draft/index.html"}
+              skill1={"HTML5"}
+              skill2={"CSS3"}
+              skill3={" "}
+            />
+            <ProjectCard
+              img={ImageSearch}
+              title={"React Image Search"}
+              description={"An image searching tool built with ReactJS and Material UI that dynamically displays results based on user input."}
+              source={'https://github.com/Buachie/image-search'}
+              demo={''}
+              skill1={'ReactJS'}
+              skill2={'CSS3'}
+              skill3={'Material UI'}
+            />
+
           </div>
         </div>
       </div>
