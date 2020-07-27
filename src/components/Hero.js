@@ -5,7 +5,7 @@ export class Hero extends Component {
     return (
       <div className="hero-container conso-txt">
         <h1 className="name">
-          Aaron Buachie<span className="cursor">|</span>
+          Aaron Buachie<span className="cursor blk">|</span>
         </h1>
         <div className="about">
           <p>

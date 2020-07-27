@@ -120,7 +120,7 @@ font-size: 18pxk;
   background-color: rgb(65, 65, 65);
   padding: 1rem;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
-    0 15px 35px rgba(81, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
+    0 15px 35px rgba(50, 54, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
   font-size: 18px;
 }
 .info-section {
@@ -143,6 +143,9 @@ font-size: 18pxk;
   font-size: 90%;
   color: #fff;
   animation: cursor-blink 1s steps(1) infinite;
+}
+.blk{
+  color: #000;
 }
 
 /*Project Info*/
