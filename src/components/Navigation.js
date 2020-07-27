@@ -16,14 +16,13 @@ export class Navigation extends Component {
               <a href="https://github.com/Buachie">
                 <FaGithubSquare size={30} color={"#705DD8"} />
               </a>
-
               <a href="https://www.linkedin.com/in/aaron-buachie-5b678775/">
                 <FaLinkedin size={30} color={"#705DD8"} />
               </a>
             </div>
           </div>
           <nav>
-            <a href="#">Portfolio</a>
+            <a href=".projects-container">Portfolio</a>
             <a href="#">Resume</a>
           </nav>
         </div>

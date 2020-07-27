@@ -15,7 +15,6 @@ export class Projects extends Component {
             <h2>Portfolio</h2>
             <p>Check out some of the stuff I've worked on. </p>
           </div>
-
           <div className="project-info">
             <ProjectCard
               img={Weather}
@@ -53,22 +52,19 @@ export class Projects extends Component {
               skill3={"HTML5"}
               skill4={"JavaScript"}
             />
-
             <ProjectCard
               img={Handbook}
               title= {"Hunter College Film Production Handbook"}
-              description={"An online handbook for the Hunter College Department of Film and Media allowing easy access to important forms and documents for students"}
+              description={"An online handbook for the Hunter College Department of Film and Media allowing easy access to important forms and documents for students."}
               demo={"https://fm.hunter.cuny.edu/productionhandbook_draft/index.html"}
               skill1={"HTML5"}
               skill2={"CSS3"}
-              skill3={" "}
             />
             <ProjectCard
               img={ImageSearch}
               title={"React Image Search"}
               description={"An image searching tool built with ReactJS and Material UI that dynamically displays results based on user input."}
               source={'https://github.com/Buachie/image-search'}
-              demo={''}
               skill1={'ReactJS'}
               skill2={'CSS3'}
               skill3={'Material UI'}

@@ -87,7 +87,7 @@ font-size: 18pxk;
   border-top-right-radius: 10px;
   width: 100%;
   height: 1.5rem;
-  background-color: rgb(214, 206, 171);
+  background-color: rgb(168, 168, 168);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -117,7 +117,7 @@ font-size: 18pxk;
 }
 
 .my-info{
-  background-color: rgb(126, 126, 126);
+  background-color: rgb(65, 65, 65);
   padding: 1rem;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
     0 15px 35px rgba(81, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
