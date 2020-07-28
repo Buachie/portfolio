@@ -3,26 +3,26 @@ import React, { Component } from "react";
 export class Hero extends Component {
   render() {
     return (
-      <div className="hero-container conso-txt">
+      <div className="hero-container">
         <h1 className="name">
-          Aaron Buachie<span className="cursor blk">|</span>
+          Aaron Buachie<span className="cursor">|</span>
         </h1>
         <div className="about">
           <p>
-            I am a web developer based in Brooklyn who enjoys creating
-            interesting and meaningful content
+            Hey there. My name is Aaron and I am a web developer from Brooklyn, New York 
+            and I'm passionate and dedicated to my work and am always dedicated to learning 
+            new technologies and frameworks.
+            <br/>
+            <br/>
+            Check out some of my work below.
           </p>
         </div>
-        <div className="header-decoration">
-          <div className="decoration-flex">
-            <div className="button green"></div>
-            <div className="button yellow"></div>
-            <div className="button red"></div>
-          </div>
-
-          <p className="section-title">About Me</p>
+        <div className="terminal-nav flex">
+            <div className="btn green"></div>
+            <div className="btn yellow"></div>
+            <div className="btn red"></div>
         </div>
-        <div className="my-info txt-wht">
+        <div className="my-info">
           <div className="info-section">
             <div className="info-title">Aaron.currentLocation</div>
             <div className="info-data">"Brooklyn, New York"</div>

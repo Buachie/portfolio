@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import { FaGithubSquare, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import "./App.css";
 
 export default class App extends Component {
@@ -9,7 +11,6 @@ export default class App extends Component {
     return (
       <div>
         <Navigation />
-
         <div className="main-container">
           <div className="content-container">
             <Hero />
@@ -18,7 +19,10 @@ export default class App extends Component {
           </div>
         </div>
         <footer>
-          <p>Aaron Buachie &copy; 2020</p>
+          <div className="footer-info">
+            <p>Aaron Buachie &copy; 2020</p>
+            <Contact color={"#fff"}/>
+          </div>
         </footer>
       </div>
     );

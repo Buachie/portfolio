@@ -8,14 +8,14 @@ import ImageSearch from "../img/image_search.png"
 export class Projects extends Component {
   render() {
     return (
-      <div className="projects-container">
+      <div className="projects-container" id="portfolio">
         
         <div className="card-container">
           <div className="title-container">
-            <h2>Portfolio</h2>
+            <h1>Portfolio</h1>
             <p>Check out some of the stuff I've worked on. </p>
           </div>
-          <div className="project-info">
+          <div className="project-container flex">
             <ProjectCard
               img={Weather}
               title={"JavaScript Weather App"}
@@ -42,6 +42,7 @@ export class Projects extends Component {
             <ProjectCard
               img={Entertainment}
               title={"Entertainment Simulator"}
+              titleGap={true}
               description={
                 "A game made in React that provides the user with different things to do depending on the current weather. Choosing an option will affect various stats. All information is also stored locally for future use."
               }
@@ -66,8 +67,9 @@ export class Projects extends Component {
               description={"An image searching tool built with ReactJS and Material UI that dynamically displays results based on user input."}
               source={'https://github.com/Buachie/image-search'}
               skill1={'ReactJS'}
-              skill2={'CSS3'}
-              skill3={'Material UI'}
+              skill2={'ES6'}
+              skill3={'CSS3'}
+              skill4={'Material UI'}
             />
 
           </div>
