@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Resume from "../documents/Resume.pdf";
 export class Hero extends Component {
   render() {
     return (
@@ -40,13 +40,13 @@ export class Hero extends Component {
           <div className="info-section">
             <div className="info-title">Aaron.resume</div>
             <div className="info-data">
-              <a href="#">"Resume.pdf"</a>
+              <a href={Resume} rel="noopener noreferrer" target="_blank">"Resume.pdf"</a>
             </div>
           </div>
           <div className="info-section">
             <div className="info-title">Aaron.skills</div>
             <div className="info-data">
-              [HTML5, CSS3, Sass, JavaScript, ReactJS, jQuery, Wordpress, Git]
+              ["HTML5", "CSS3", "Sass", "JavaScript", "ReactJS", "jQuery", "Wordpress", "Git"]
             </div>
           </div>
           <div className="info-title">

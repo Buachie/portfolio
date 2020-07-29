@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { FaGithubSquare, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";

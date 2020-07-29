@@ -16,7 +16,6 @@ export class ProjectCard extends Component {
                   <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill fill-three"></path>
               </svg>
             </div>
-            
           </div>
           <div className="project-info">
             <h2 className="project-title">{this.props.title}</h2>
@@ -28,22 +27,21 @@ export class ProjectCard extends Component {
                 {this.props.skill2 ? <li>{this.props.skill2}</li> : null}
                 {this.props.skill3 ? <li>{this.props.skill3}</li> : null}
                 {this.props.skill4 ? <li>{this.props.skill4}</li> : null}
+                {this.props.skill5 ? <li>{this.props.skill5}</li> : null}
+                {this.props.skill6 ? <li>{this.props.skill6}</li> : null}
+                {this.props.skill7 ? <li>{this.props.skill7}</li> : null}
               </ul>
             <div className="project-btn flex">
               {this.props.source ? (
-                <a className="btn src" href={this.props.source}>
+                <a className="btn src" href={this.props.source} rel="noopener noreferrer" target="_blank">
                   <span className="flex">View Source<FaGithub className="icon" size={15} color={"#fff"} /></span>
                 </a>
-              ) : (
-                console.log()
-              )}
+              ) : null}
               {this.props.demo ? (
-                <a className="btn demo" href={this.props.demo}>
+                <a className="btn demo" href={this.props.demo} rel="noopener noreferrer" target="_blank">
                   <span className="flex">View Project<FaArrowCircleRight className="icon" size={15} color={"#705DD8"}/></span>
                 </a>
-              ) : (
-                console.log()
-              )}
+              ) : null}
             </div>
           </div> 
         </div>

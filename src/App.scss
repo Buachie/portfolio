@@ -147,15 +147,18 @@ html {
 }
 
 //Projects
+.title-container p{
+    font-size: 1.3rem;
+}
 
-.project-container{
+.card-container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 6rem;
     margin: 0;
+    
     .card {
-
         overflow: hidden;
         font-size: medium !important;
         border-radius: 10px;
@@ -179,7 +182,8 @@ html {
         }
 
         .project-info{
-            height: 100%;
+            position: relative;
+            height: 400px;
         }
         .project-title,.project-description{
             margin: 0;
@@ -193,7 +197,7 @@ html {
             list-style-type:none;
             li{
                 height: auto;
-                margin-right: 1rem;
+                margin-right: 0.5rem;
                 font-weight: 600;
                 width: fit-content;
                 border: 2px solid #585bfa;
@@ -204,7 +208,7 @@ html {
         }
     }
     .project-btn{
-        position: relative;
+        position: absolute;
         bottom: 0;
         margin: 1rem;
 
@@ -308,13 +312,23 @@ footer {
     }
 }
 @media screen and (min-width:703px) and (max-width:810px){
-    .project-container{
+    .card-container{
         grid-gap: 2rem
     }
     .card{
         width:100%;
     }
 
+}
+
+@media screen and (max-width: 702px){
+    .project-btn{
+        position: relative !important;
+    }
+
+    .project-info{
+        height: auto !important;
+    }
 }
 @media screen and (min-width: 582px) and (max-width: 702px) {
     .card {

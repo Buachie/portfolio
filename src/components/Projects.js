@@ -9,30 +9,41 @@ export class Projects extends Component {
   render() {
     return (
       <div className="projects-container" id="portfolio">
-        
-        <div className="card-container">
           <div className="title-container">
             <h1>Portfolio</h1>
             <p>Check out some of the stuff I've worked on. </p>
           </div>
-          <div className="project-container flex">
+          <div className="card-container flex">
             <ProjectCard
               img={Weather}
               title={"JavaScript Weather App"}
               description={
-                "A simple weather application that uses the Darksky API to provide the current weather and weekly forecast based on the user's current location."
+                "A JavaScript weather application that uses the Darksky API to provide the current weather and weekly forecast based on the user's current location. The background also changes to suit the time of day and weather."
               }
               source={"https://github.com/Buachie/weather-app"}
-              demo={"#"}
+              demo={"https://buachie.github.io/medp341/dist/assignments/Weather_App/index.html"}
               skill1={"HTML5"}
               skill2={"CSS3"}
               skill3={"JavaScript"}
+              skill4={"ES6"}
+            />
+
+            <ProjectCard
+              img={ImageSearch}
+              title={"React Image Search"}
+              description={"An image searching tool built with ReactJS and Material UI that dynamically displays images using Pixabay's API along with the image tags and author."}
+              source={'https://github.com/Buachie/image-search'}
+              skill1={'JavaScript'}
+              skill2={'ES6'}
+              skill3={'ReactJS'}
+              skill4={'CSS3'}
+              skill5={'Material UI'}
             />
             <ProjectCard
               img={Heritage}
               title={"African American Heritage Trail"}
               description={
-                "A site for the Upper Housatonic Valley African American Heritage Trail made alongside a designer by modifying the Wordpress 'Twenty Twenty' theme."
+                "A site for the Upper Housatonic Valley African American Heritage Trail. I worked on this project as part of a team where I helped make heavy modifications to the Wordpress 'Twenty Twenty' theme to meet the requirements of the client."
               }
               demo={"https://www.africanamericantrail.org/"}
               skill1={"HTML5"}
@@ -42,16 +53,17 @@ export class Projects extends Component {
             <ProjectCard
               img={Entertainment}
               title={"Entertainment Simulator"}
-              titleGap={true}
+              titleGap={false}
               description={
-                "A game made in React that provides the user with different things to do depending on the current weather. Choosing an option will affect various stats. All information is also stored locally for future use."
+                "A game made in React that provides the user with different things to do depending on the current weather. Choosing an option will affect various stats. All information is also stored locally for future use. This was my first React app and was a huge learning experience, especially in managing state and props."
               }
               source={"https://github.com/Buachie/entertainment-sim/"}
               demo={"https://buachie.github.io/entertainment-sim/"}
-              skill1={"ReactJS"}
+              skill1={"HTML5"}
               skill2={"CSS3"}
-              skill3={"HTML5"}
-              skill4={"JavaScript"}
+              skill3={"JavaScript"}
+              skill4={"ES6"}
+              skill4={"ReactJS"}
             />
             <ProjectCard
               img={Handbook}
@@ -61,20 +73,9 @@ export class Projects extends Component {
               skill1={"HTML5"}
               skill2={"CSS3"}
             />
-            <ProjectCard
-              img={ImageSearch}
-              title={"React Image Search"}
-              description={"An image searching tool built with ReactJS and Material UI that dynamically displays results based on user input."}
-              source={'https://github.com/Buachie/image-search'}
-              skill1={'ReactJS'}
-              skill2={'ES6'}
-              skill3={'CSS3'}
-              skill4={'Material UI'}
-            />
-
+            
           </div>
         </div>
-      </div>
     );
   }
 }

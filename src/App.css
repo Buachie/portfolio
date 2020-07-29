@@ -168,7 +168,11 @@ html body {
   content: "> ";
 }
 
-.project-container {
+.title-container p {
+  font-size: 1.3rem;
+}
+
+.card-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
@@ -178,7 +182,7 @@ html body {
   margin: 0;
 }
 
-.project-container .card {
+.card-container .card {
   overflow: hidden;
   font-size: medium !important;
   border-radius: 10px;
@@ -187,11 +191,11 @@ html body {
           box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05), 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.project-container .card .full-height {
+.card-container .card .full-height {
   height: 100%;
 }
 
-.project-container .card .project-img {
+.card-container .card .project-img {
   height: 250px;
   min-height: 250px;
   max-height: 250px;
@@ -200,21 +204,22 @@ html body {
   position: relative;
 }
 
-.project-container .card .project-img img {
+.card-container .card .project-img img {
   height: 100%;
   width: 100%;
 }
 
-.project-container .card .project-info {
-  height: 100%;
+.card-container .card .project-info {
+  position: relative;
+  height: 400px;
 }
 
-.project-container .card .project-title, .project-container .card .project-description {
+.card-container .card .project-title, .card-container .card .project-description {
   margin: 0;
   padding: 1rem;
 }
 
-.project-container .card .skills {
+.card-container .card .skills {
   margin: 2rem 1rem;
   padding: 0;
   -ms-flex-wrap: wrap;
@@ -225,9 +230,9 @@ html body {
   list-style-type: none;
 }
 
-.project-container .card .skills li {
+.card-container .card .skills li {
   height: auto;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   font-weight: 600;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -238,13 +243,13 @@ html body {
   margin-bottom: 2px;
 }
 
-.project-container .project-btn {
-  position: relative;
+.card-container .project-btn {
+  position: absolute;
   bottom: 0;
   margin: 1rem;
 }
 
-.project-container .project-btn .btn {
+.card-container .project-btn .btn {
   margin-right: 1rem;
   padding: 16px 12px;
   -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -261,32 +266,32 @@ html body {
   overflow: hidden;
 }
 
-.project-container .project-btn .btn .icon {
+.card-container .project-btn .btn .icon {
   margin-left: 0.2rem;
 }
 
-.project-container .project-btn .btn a {
+.card-container .project-btn .btn a {
   margin: 0.5rem;
   padding: 0.7rem;
 }
 
-.project-container .project-btn .btn.src {
+.card-container .project-btn .btn.src {
   color: #fff;
   background: #705DD8;
 }
 
-.project-container .project-btn .btn.src:hover {
+.card-container .project-btn .btn.src:hover {
   background: #8676de;
   -webkit-transform: translate(0, -3px);
           transform: translate(0, -3px);
 }
 
-.project-container .project-btn .btn.demo {
+.card-container .project-btn .btn.demo {
   color: #705DD8;
   background: #f1f1f1;
 }
 
-.project-container .project-btn .btn.demo:hover {
+.card-container .project-btn .btn.demo:hover {
   background: white;
   -webkit-transform: translate(0, -3px);
           transform: translate(0, -3px);
@@ -368,11 +373,20 @@ footer .footer-info .contact a:hover > svg {
 }
 
 @media screen and (min-width: 703px) and (max-width: 810px) {
-  .project-container {
+  .card-container {
     grid-gap: 2rem;
   }
   .card {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .project-btn {
+    position: relative !important;
+  }
+  .project-info {
+    height: auto !important;
   }
 }
 
