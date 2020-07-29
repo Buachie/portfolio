@@ -30,17 +30,17 @@ export class Hero extends Component {
           <div className="info-section">
             <div className="info-title">Aaron.contactInfo</div>
             <div className="info-data">
-              [<a href="mailto:buachiea@gmail.com">buachiea@gmail.com</a>,{" "}
-              <a href="https://www.linkedin.com/in/aaron-buachie-5b678775/">
+              ["<a href="mailto:buachiea@gmail.com">buachiea@gmail.com</a>",{" "}
+              "<a href="https://www.linkedin.com/in/aaron-buachie-5b678775/">
                 Linkedin
-              </a>
-              , <a href="https://github.com/Buachie">Github</a>]
+              </a>"
+              , "<a href="https://github.com/Buachie">Github</a>"]
             </div>
           </div>
           <div className="info-section">
             <div className="info-title">Aaron.resume</div>
             <div className="info-data">
-              <a href={Resume} rel="noopener noreferrer" target="_blank">"Resume.pdf"</a>
+              "<a href={Resume} rel="noopener noreferrer" target="_blank">Resume.pdf</a>"
             </div>
           </div>
           <div className="info-section">

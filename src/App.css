@@ -148,8 +148,12 @@ html body {
 }
 
 .hero-container .my-info .info-section a {
-  color: #ff7300;
+  color: #fff700;
   text-decoration: none;
+}
+
+.hero-container .my-info .info-section .info-data {
+  color: #8486ff;
 }
 
 .hero-container .my-info .info-section a:hover {

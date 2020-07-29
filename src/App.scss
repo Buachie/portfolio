@@ -126,8 +126,11 @@ html {
         .info-section {
             padding: 1rem 0;
             a{
-                color: #ff7300;
+                color: #fff700;
                 text-decoration: none;
+            }
+            .info-data{
+                color: rgb(132, 134, 255);
             }
         }
         .info-section a:hover {
