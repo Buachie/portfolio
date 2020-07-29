@@ -9,7 +9,7 @@ export class Hero extends Component {
         </h1>
         <div className="about">
           <p>
-            Hey there. My name is Aaron and I'm a web developer from Brooklyn, New York 
+            Hey there. My name is Aaron and I'm a web developer from Brooklyn, NY 
             who is passionate and dedicated to his work and always open to learning 
             new technologies and frameworks.
             <br/>
