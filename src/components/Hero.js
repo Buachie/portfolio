@@ -28,6 +28,12 @@ export class Hero extends Component {
             <div className="info-data">"Brooklyn, New York"</div>
           </div>
           <div className="info-section">
+            <div className="info-title">Aaron.skills</div>
+            <div className="info-data">
+              ["<span className="skill">HTML5</span>", "<span className="skill">CSS3</span>", "<span className="skill">Sass</span>", "<span className="skill">JavaScript</span>", "<span className="skill">ReactJS</span>", "<span className="skill">jQuery</span>", "<span className="skill">Wordpress</span>", "<span className="skill">Git</span>"]
+            </div>
+          </div>
+          <div className="info-section">
             <div className="info-title">Aaron.contactInfo</div>
             <div className="info-data">
               ["<a href="mailto:buachiea@gmail.com">buachiea@gmail.com</a>",{" "}
@@ -43,12 +49,7 @@ export class Hero extends Component {
               "<a href={Resume} rel="noopener noreferrer" target="_blank">Resume.pdf</a>"
             </div>
           </div>
-          <div className="info-section">
-            <div className="info-title">Aaron.skills</div>
-            <div className="info-data">
-              ["HTML5", "CSS3", "Sass", "JavaScript", "ReactJS", "jQuery", "Wordpress", "Git"]
-            </div>
-          </div>
+          
           <div className="info-title">
             <span className="cursor">|</span>
           </div>

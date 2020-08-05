@@ -43,7 +43,7 @@ export class Projects extends Component {
               img={Heritage}
               title={"African American Heritage Trail"}
               description={
-                "A site for the Upper Housatonic Valley African American Heritage Trail. I worked on this project as part of a team where I helped make heavy modifications to the Wordpress 'Twenty Twenty' theme to meet the requirements of the client."
+                "A site for the Upper Housatonic Valley African American Heritage Trail. I worked on this project as a junior front-end developer on a team where I helped customize the Wordpress 'Twenty Twenty' theme to meet the requirements of the client."
               }
               demo={"https://www.africanamericantrail.org/"}
               skill1={"HTML5"}
@@ -68,7 +68,7 @@ export class Projects extends Component {
             <ProjectCard
               img={Handbook}
               title= {"Hunter College Film Production Handbook"}
-              description={"An online handbook for the Hunter College Department of Film and Media allowing easy access to important forms and documents for students."}
+              description={"An online handbook for the Hunter College Department of Film and Media allowing easy access to important forms and documents for students. This project involved working with department staff to update the old, outdated design"}
               demo={"https://fm.hunter.cuny.edu/productionhandbook_draft/index.html"}
               skill1={"HTML5"}
               skill2={"CSS3"}

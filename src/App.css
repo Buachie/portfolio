@@ -78,7 +78,7 @@ html body {
 }
 
 .hero-container {
-  margin: 9rem 0;
+  margin: 3rem 0 9rem;
   font-family: Consolas, monaco, monospace;
 }
 
@@ -140,6 +140,10 @@ html body {
           box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15), 0 15px 35px rgba(50, 54, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
   font-size: 18px;
   color: #fff;
+}
+
+.hero-container .my-info .skill {
+  color: #65e280;
 }
 
 .hero-container .my-info .info-section {

@@ -74,7 +74,7 @@ html {
 
 //Hero Styles
 .hero-container{
-    margin: 9rem 0;
+    margin: 3rem 0 9rem;
     font-family: $hero-font;
     h1{
         color:$primary-color ;
@@ -122,6 +122,9 @@ html {
         0 15px 35px rgba(50, 54, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
         font-size: 18px;
         color: $secondary-text-color;
+        .skill{
+            color: rgb(101, 226, 128)
+        }
         .info-section {
             padding: 1rem 0;
             a{
