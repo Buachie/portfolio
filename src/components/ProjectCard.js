@@ -7,7 +7,7 @@ export class ProjectCard extends Component {
       <div className="card">
         <div className="full-height">
           <div className="project-img">
-            <img src={this.props.img}></img>
+            <img src={this.props.img} alt="project-img"></img>
             
             <div className="img-overlay">
               <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

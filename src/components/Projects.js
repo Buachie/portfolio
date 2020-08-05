@@ -43,7 +43,7 @@ export class Projects extends Component {
               img={Heritage}
               title={"African American Heritage Trail"}
               description={
-                "A site for the Upper Housatonic Valley African American Heritage Trail. I worked on this project as a junior front-end developer on a team where I helped customize the Wordpress 'Twenty Twenty' theme to meet the requirements of the client."
+                "A site for the Upper Housatonic Valley African American Heritage Trail. I worked on this project as a junior front-end developer on a team where I helped customize the Wordpress 'Twenty Twenty' child theme."
               }
               demo={"https://www.africanamericantrail.org/"}
               skill1={"HTML5"}
@@ -63,7 +63,7 @@ export class Projects extends Component {
               skill2={"CSS3"}
               skill3={"JavaScript"}
               skill4={"ES6"}
-              skill4={"ReactJS"}
+              skill5={"ReactJS"}
             />
             <ProjectCard
               img={Handbook}
