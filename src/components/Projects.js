@@ -33,6 +33,7 @@ export class Projects extends Component {
               title={"React Image Search"}
               description={"An image searching tool built with ReactJS and Material UI that dynamically displays images using Pixabay's API along with the image tags and author."}
               source={'https://github.com/Buachie/image-search'}
+              demo={'https://buachie-photo-search.netlify.app/'}
               skill1={'JavaScript'}
               skill2={'ES6'}
               skill3={'ReactJS'}
@@ -53,7 +54,6 @@ export class Projects extends Component {
             <ProjectCard
               img={Entertainment}
               title={"Entertainment Simulator"}
-              titleGap={false}
               description={
                 "A game made in React that provides the user with different things to do depending on the current weather. Choosing an option will affect various stats. All information is also stored locally for future use. This was my first React app and was a huge learning experience, especially in managing state and props."
               }

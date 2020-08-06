@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
 * {
   -webkit-box-sizing: border-box;
@@ -17,7 +16,7 @@ html body {
   background-color: #f6f9fc;
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: "Raleway", "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -96,7 +95,7 @@ html body {
 }
 
 .hero-container .about {
-  font-family: "Raleway", "Quicksand", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.3rem;
 }
 
