@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Resume from "../documents/Resume.pdf";
+import Resume from "../documents/AaronBuachieResume.pdf";
 import Contact from "./Contact";
 
 export class Navigation extends Component {

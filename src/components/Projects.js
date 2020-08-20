@@ -33,7 +33,7 @@ export class Projects extends Component {
               title={"React Image Search"}
               description={"An image searching tool built with ReactJS and Material UI that dynamically displays images using Pixabay's API along with the image tags and author."}
               source={'https://github.com/Buachie/image-search'}
-              demo={'https://buachie-photo-search.netlify.app/'}
+              demo={"https://buachie-photo-search.netlify.app/"}
               skill1={'JavaScript'}
               skill2={'ES6'}
               skill3={'ReactJS'}
