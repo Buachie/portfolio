@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
-import Weather from "../img/weather_app.png";
-import Heritage from "../img/heritage_trail.png";
-import Entertainment from "../img/entertainment_sim.png";
+import MyTime from "../img/my_time.png";
+import DevJobs from "../img/DevJobs.png";
 import Handbook from "../img/handbook.png";
 import ImageSearch from "../img/image_search.png";
 import Planets from "../img/planets.png";
@@ -17,19 +16,17 @@ export class Projects extends Component {
         </div>
         <div className="card-container flex">
           <ProjectCard
-            img={Weather}
-            title={"JavaScript Weather App"}
+            img={DevJobs}
+            title={"DevJobs"}
             description={
-              "A JavaScript weather application that uses the Darksky API to provide the current weather and weekly forecast based on the user's current location. The background also changes to suit the time of day and weather."
+              "A React application that allows users to filter through a list of jobs by title, company, location, full time and partime positions. This project was built with a mobile first methodology and also allows users to toggle between dark and light themes."
             }
-            source={"https://github.com/Buachie/weather-app"}
-            demo={
-              "https://buachie.github.io/medp341/dist/assignments/Weather_App/index.html"
-            }
-            skill1={"HTML5"}
-            skill2={"CSS3"}
-            skill3={"JavaScript"}
-            skill4={"ES6"}
+            source={"https://github.com/Buachie/devjobs-app"}
+            demo={"https://devpositions.netlify.app/"}
+            skill1={"ReactJS"}
+            skill2={"React Context API"}
+            skill3={"React Router"}
+            skill4={"SCSS"}
           />
 
           <ProjectCard
@@ -49,7 +46,9 @@ export class Projects extends Component {
           <ProjectCard
             img={Planets}
             title={"Planet Facts"}
-            description={""}
+            description={
+              "A React Application that provides a general overview as well as information on the internal structure and surface geology of the planets in our solar system. It also changes between a light theme and dark theme wi9th different backgrounds depending on the time of day. "
+            }
             source={"https://github.com/Buachie/planet-facts"}
             demo={"https://planetoids.netlify.app/"}
             skill1={"React"}
@@ -57,30 +56,17 @@ export class Projects extends Component {
             skill3={"SCSS"}
           />
           <ProjectCard
-            img={Entertainment}
-            title={"Entertainment Simulator"}
+            img={MyTime}
+            title={"My World Time"}
             description={
-              "A game made in React that provides the user with different things to do depending on the current weather. Choosing an option will affect various stats. All information is also stored locally for future use. This was my first React app and was a huge learning experience, especially in managing state and props."
+              "A web application that uses World Time API, IP Geolocation API and Quotable API to display the time, location, and other useful data. It also changes the background image and color scheme of the information tab depending on the time of day."
             }
-            source={"https://github.com/Buachie/entertainment-sim/"}
-            demo={"https://buachie.github.io/entertainment-sim/"}
-            skill1={"HTML5"}
-            skill2={"CSS3"}
-            skill3={"JavaScript"}
+            source={"https://github.com/Buachie/clock-app"}
+            demo={"https://myworldtime.netlify.app/"}
+            skill1={"ReactJS"}
+            skill2={"SCSS"}
+            skill3={"TypeScript"}
             skill4={"ES6"}
-            skill5={"ReactJS"}
-          />
-          <ProjectCard
-            img={Handbook}
-            title={"Firechat"}
-            description={"A React application that allows users to "}
-            demo={
-              "https://fm.hunter.cuny.edu/productionhandbook_draft/index.html"
-            }
-            skill1={"TypeScript"}
-            skill2={"React"}
-            skill3={"Firebase"}
-            skill4={"React ContextAPI"}
           />
         </div>
       </div>
