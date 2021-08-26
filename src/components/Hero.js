@@ -31,12 +31,13 @@ export class Hero extends Component {
             <div className="info-title">Aaron.skills</div>
             <div className="info-data">
               ["<span className="skill">React</span>", "
+              <span className="skill">NextJS</span>", "
               <span className="skill">JavaScript</span>", "
               <span className="skill">TypeScript</span>", "
+              <span className="skill">Tailwind CSS</span>", "
               <span className="skill">HTML5</span>", "
               <span className="skill">CSS3</span>", "
               <span className="skill">jQuery</span>", "
-              <span className="skill">Wordpress</span>", "
               <span className="skill">Git</span>"]
             </div>
           </div>
