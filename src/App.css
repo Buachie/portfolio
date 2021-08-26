@@ -58,18 +58,19 @@ html body {
   text-decoration: none;
   color: #000;
   padding: 1rem;
-  -webkit-transition: color .6s ease;
-  transition: color .6s ease;
+  -webkit-transition: color 0.6s ease;
+  transition: color 0.6s ease;
 }
 
 .nav-container a:hover {
+  cursor: pointer;
   color: #8676de;
 }
 
 .nav-container .contact a {
   padding: 0.5rem;
-  -webkit-transition: color .6s ease;
-  transition: color .6s ease;
+  -webkit-transition: color 0.6s ease;
+  transition: color 0.6s ease;
 }
 
 .nav-container .contact a:hover > svg {
@@ -82,14 +83,14 @@ html body {
 }
 
 .hero-container h1 {
-  color: #705DD8;
+  color: #705dd8;
   font-size: 5rem;
   font-weight: 300;
 }
 
 .hero-container h1 .cursor {
   font-size: 90%;
-  color: #705DD8;
+  color: #705dd8;
   -webkit-animation: cursor-blink 1s steps(1) infinite;
           animation: cursor-blink 1s steps(1) infinite;
 }
@@ -220,7 +221,8 @@ html body {
   height: 400px;
 }
 
-.card-container .card .project-title, .card-container .card .project-description {
+.card-container .card .project-title,
+.card-container .card .project-description {
   margin: 0;
   padding: 1rem;
 }
@@ -265,10 +267,10 @@ html body {
   text-decoration: none;
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: .08em;
+  letter-spacing: 0.08em;
   position: relative;
-  -webkit-transition: background-color .6s ease;
-  transition: background-color .6s ease;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
   overflow: hidden;
 }
 
@@ -283,7 +285,7 @@ html body {
 
 .card-container .project-btn .btn.src {
   color: #fff;
-  background: #705DD8;
+  background: #705dd8;
 }
 
 .card-container .project-btn .btn.src:hover {
@@ -293,7 +295,7 @@ html body {
 }
 
 .card-container .project-btn .btn.demo {
-  color: #705DD8;
+  color: #705dd8;
   background: #f1f1f1;
 }
 
@@ -332,7 +334,7 @@ html body {
 footer {
   margin: 4rem 0 auto;
   width: 100%;
-  background-color: #705DD8;
+  background-color: #705dd8;
   color: #f1f1f1;
   padding: 0.5rem;
 }
@@ -362,8 +364,8 @@ footer .footer-info {
 
 footer .footer-info .contact a {
   padding: 0.5rem;
-  -webkit-transition: color .6s ease;
-  transition: color .6s ease;
+  -webkit-transition: color 0.6s ease;
+  transition: color 0.6s ease;
 }
 
 footer .footer-info .contact a:hover > svg {
@@ -372,7 +374,8 @@ footer .footer-info .contact a:hover > svg {
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-  .img-overlay svg, footer-bg svg {
+  .img-overlay svg,
+  footer-bg svg {
     width: calc(100% + 1.3px);
     height: 38px;
   }
@@ -411,7 +414,8 @@ footer .footer-info .contact a:hover > svg {
     -moz-text-size-adjust: none;
     -ms-text-size-adjust: none;
   }
-  .nav-container, .footer-info {
+  .nav-container,
+  .footer-info {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;

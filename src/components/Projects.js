@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import MyTime from "../img/my_time.png";
 import DevJobs from "../img/DevJobs.png";
-import Handbook from "../img/handbook.png";
 import ImageSearch from "../img/image_search.png";
 import Planets from "../img/planets.png";
 
@@ -19,7 +18,7 @@ export class Projects extends Component {
             img={DevJobs}
             title={"DevJobs"}
             description={
-              "A React application that allows users to filter through a list of jobs by title, company, location, full time and partime positions. This project was built with a mobile first methodology and also allows users to toggle between dark and light themes."
+              "A React application that allows users to filter through a list of jobs by title, company, location, full time and part time positions. This project was built with a mobile first methodology and also allows users to toggle between dark and light themes."
             }
             source={"https://github.com/Buachie/devjobs-app"}
             demo={"https://devpositions.netlify.app/"}
