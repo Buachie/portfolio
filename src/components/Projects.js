@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 import MyTime from "../img/my_time.png";
 import DevJobs from "../img/DevJobs.png";
-import ImageSearch from "../img/image_search.png";
+// import ImageSearch from "../img/image_search.png";
 import Planets from "../img/planets.png";
+import Invoicer from "../img/invoice-tracker.jpeg";
 
 export class Projects extends Component {
   render() {
@@ -14,6 +15,20 @@ export class Projects extends Component {
           <p>Check out some of the stuff I've worked on. </p>
         </div>
         <div className="card-container flex">
+          <ProjectCard
+            img={Invoicer}
+            title={"Invoicer"}
+            description={
+              "Invoicer is application for creating and managing invoices. Using firebase for authentication and storage, users can store and manage their invoices in an account tied to their email."
+            }
+            source={"https://github.com/Buachie/invoice-tracker"}
+            demo={"https://invoice-tracker-iota.vercel.app/"}
+            skill1={"NextJS"}
+            skill2={"Firebase"}
+            skill3={"Styled Components"}
+            skill4={"Framer Motion"}
+            skill5={"Formik"}
+          />
           <ProjectCard
             img={DevJobs}
             title={"DevJobs"}
@@ -28,7 +43,7 @@ export class Projects extends Component {
             skill4={"SCSS"}
           />
 
-          <ProjectCard
+          {/* <ProjectCard
             img={ImageSearch}
             title={"React Image Search"}
             description={
@@ -41,7 +56,7 @@ export class Projects extends Component {
             skill3={"ReactJS"}
             skill4={"CSS3"}
             skill5={"Material UI"}
-          />
+          /> */}
           <ProjectCard
             img={Planets}
             title={"Planet Facts"}

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Resume from "../documents/AaronBuachieResume.pdf";
+import Resume from "../documents/Aaron_Buachie_Resume.pdf";
+
 export class Hero extends Component {
   render() {
     return (
@@ -34,10 +35,11 @@ export class Hero extends Component {
               <span className="skill">NextJS</span>", "
               <span className="skill">JavaScript</span>", "
               <span className="skill">TypeScript</span>", "
-              <span className="skill">Tailwind CSS</span>", "
+              <span className="skill">Jest</span>", "
+              <span className="skill">React Testing Library</span>", "
+              <span className="skill">Styled Components</span>", "
               <span className="skill">HTML5</span>", "
               <span className="skill">CSS3</span>", "
-              <span className="skill">jQuery</span>", "
               <span className="skill">Git</span>"]
             </div>
           </div>
