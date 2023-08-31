@@ -15,6 +15,13 @@ export class Projects extends Component {
           <p>Check out some of the stuff I've worked on. </p>
         </div>
         <div className="card-container flex">
+          {/* <ProjectCard
+            title={"Kollmorgen"}
+            description={
+              "I worked with a small team of three developers to revamp the Kollmorgen website"
+            }
+            demo={"https://www.kollmorgen.com/en-us"}
+          /> */}
           <ProjectCard
             img={Invoicer}
             title={"Invoicer"}

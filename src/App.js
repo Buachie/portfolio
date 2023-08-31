@@ -19,7 +19,7 @@ export default class App extends Component {
         </div>
         <footer>
           <div className="footer-info">
-            <p>Aaron Buachie &copy; 2022</p>
+            <p>Aaron Buachie &copy; 2023</p>
             <Contact color={"#fff"} />
           </div>
         </footer>
